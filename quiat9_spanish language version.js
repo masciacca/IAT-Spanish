@@ -309,8 +309,8 @@ define(["pipAPI", "pipScorer", "underscore"], function (
         '<font color="#000000"><u>Parte blockNum de nBlocks </u><br/><br/></p>' +
         '<p style="font-size:20px; text-align:left; vertical-align:bottom; margin-left:10px; font-family:arial">' +
         "<b>¡Cuidado, las estiquetas han cambiado de posición!</b><br/>" +
-        'Put the left finger on the <b>E</b> key for <font color="#336600">leftCategory</font>.<br/>' +
-        'Put the right finger on the <b>I</b> key for <font color="#336600">rightCategory</font>.<br/><br/>' +
+        'Utilice la tecla <b>E</b> para <font color="#336600">leftCategory</font>.<br/>' +
+        'Utilice la tecla <b>I</b> para <font color="#336600">rightCategory</font>.<br/><br/>' +
         "<u>Vaya tan rápido como pueda</u> y con precisión.<br/><br/></p>" +
         '<p align="center">Presione la <b>barra especiadora</b> cuando esté listo/a para comenzar.</font></p></div>',
       instSwitchCategoriesTouch: [
@@ -338,7 +338,7 @@ define(["pipAPI", "pipScorer", "underscore"], function (
 
       showDebriefing: false, //Show feedback in the last trial? Relevant only in a Qualtrics IAT because in Qualtrics we cannot access the saved feedback and IAT score later in the survey.
       //Texts for the trials that show the debriefing.
-      preDebriefingText: "Press space to see your result", //Text in the trial that comes before showing the debriefing.
+      preDebriefingText: "Presione la barra espaciadora para ver su resultado", //Text in the trial that comes before showing the debriefing.
       preDebriefingTouchText: "Touch the bottom green area to see your result", //Touch version for the text in the trial that comes before showing the debriefing.
       debriefingTextTop: "Your result:", //Will be shown above the feedback text.
       //ATTENTION: We do not recommend showing participants their results. The IAT is a typical psychological measure so it is not very accurate.
